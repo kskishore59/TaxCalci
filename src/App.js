@@ -62,7 +62,7 @@ function App() {
  
   const onSubmitSuccess = () => {
     console.log('post started')
-    Axios.post("https://backend-tax.herokuapp.com/details", {
+    Axios.post("https://taxcalci-back-db.herokuapp.com/details", {
       basic: basic,
       lta: lta,
       hra: hra,
